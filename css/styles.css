@@ -1,0 +1,51 @@
+@import 'node_modules/modern-normalize/modern-normalize.css';
+
+* {
+    border: 1px black solid;
+}
+
+#lo-engage-ext-container {
+    display: none;
+}
+body {
+    margin: 0;
+}
+header {
+    height: 20vh;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+div#main {
+    height: 80vh;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer {
+    height: 20vh;
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.wrapper {
+    width: 90%;
+    margin: 1%;
+    padding: 1%;
+    display: flex;
+    justify-content: space-around;
+    align-items: stretch;
+}
+
+div.sidebar {
+    width: 30%;
+    padding: 1%;
+}
+
+div.content {
+    width: 60%;
+    padding: 1%;
+}
